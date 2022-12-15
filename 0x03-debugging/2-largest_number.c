@@ -1,20 +1,3 @@
-
-lexiscode
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x03-debugging/2-largest_number.c
-@lexiscode
-lexiscode Added 2-largest_number.c file
- 1 contributor
-31 lines (27 sloc)  375 Bytes
 #include"main.h"
 
 /**
