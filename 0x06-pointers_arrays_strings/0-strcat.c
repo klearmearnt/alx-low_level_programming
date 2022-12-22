@@ -1,27 +1,23 @@
-#include "main.h"
-#include <string.h>
+#include <stdio.h>
 
-/**
- * _strcat - function that concatenates
- *          two strings.
- *
- * @dest: pointer to destnation input
- * @src: pointer to source input
- *
- * Return: pointer to resulting string @dest
-*/
-
-char *_strcat(char *dest, char *src)
+int main(void)
 {
-	int len = 0, i;
+  int n;
+  int a[5];
+  int *p;
 
-	while (dest[len])
-		len++;
-	for (i = 0, src[i] != '\0'; i++)
-	{
-		dest[len] = src[i];
-		len += 1;
-	}
-	dest[len] = '\0';
-	return (dest);
+  a[2] = 1024;
+  p = &n;
+  /*
+   * write your line of code here...
+   * Remember:
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
+   * - only one statement
+   * - you are not allowed to code anything else than this line of code
+   */
+  ;
+  /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
+  return (0);
 }
